@@ -20,7 +20,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <nav className="flex space-x-5 px-5 border-b h-14 items-center mb-5">
+    <nav className="flex space-x-5 px-5 border-b border-b-gray-300 h-14 items-center mb-5">
       <IoLogoSlack />
       <ul className="flex space-x-5">
         {links.map((link) => (
